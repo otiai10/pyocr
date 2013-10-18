@@ -30,8 +30,8 @@ if __name__ == '__main__':
         print("---")
         print("Tesseract:")
         unittest.TextTestRunner().run(tests_tesseract.get_all_tests())
-    if cuneiform.is_available():
-        print("---")
-        print("Cuneiform:")
-        unittest.TextTestRunner().run(tests_cuneiform.get_all_tests())
+    #if cuneiform.is_available():
+    #    print("---")
+    #    print("Cuneiform:")
+    #    unittest.TextTestRunner().run(tests_cuneiform.get_all_tests())
 
